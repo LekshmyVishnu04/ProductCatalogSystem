@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Information</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px;">
+
+    <div style="
+        max-width: 600px;
+        margin: auto;
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+    ">
+
+        <h1 style="text-align: center; color: #2c3e50;">
+            Product Information
+        </h1>
+
+        <p>Hello,</p>
+
+        <p>
+            Here are the details of the product:
+        </p>
+
+        <table style="
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        ">
+
+            <tr>
+                <td style="
+                    padding: 12px;
+                    border: 1px solid #ddd;
+                    font-weight: bold;
+                ">
+                    Product Name
+                </td>
+
+                <td style="
+                    padding: 12px;
+                    border: 1px solid #ddd;
+                ">
+                    {{ name }}
+                </td>
+            </tr>
+
+            <tr>
+                <td style="
+                    padding: 12px;
+                    border: 1px solid #ddd;
+                    font-weight: bold;
+                ">
+                    Category
+                </td>
+
+                <td style="
+                    padding: 12px;
+                    border: 1px solid #ddd;
+                ">
+                    {{ category }}
+                </td>
+            </tr>
+
+            <tr>
+                <td style="
+                    padding: 12px;
+                    border: 1px solid #ddd;
+                    font-weight: bold;
+                ">
+                    Price
+                </td>
+
+                <td style="
+                    padding: 12px;
+                    border: 1px solid #ddd;
+                ">
+                    ₹{{ price }}
+                </td>
+            </tr>
+
+        </table>
+
+        <p style="margin-top: 30px;">
+            Thank you.
+        </p>
+
+        <p>
+            Regards,<br>
+            <strong>ProductInfoManager</strong>
+        </p>
+
+    </div>
+
+</body>
+
+</html>
